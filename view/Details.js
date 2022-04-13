@@ -106,15 +106,21 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   form: {
-    flex: 0.5,
-    backgroundColor: "#EEE",
-    margin: 5,
-    borderRadius: 10,
-    padding: 10,
+    flex: 0.2,
+    margin: 4,
     flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
   },
-  label: {},
-  input: {},
+  label: {
+    width: 60,
+  },
+  input: {
+    backgroundColor: "#EEE",
+    width: "100%",
+    marginLeft: 10,
+    padding: 10,
+  },
   save: {
     alignItems: "center",
     justifyContent: "center",

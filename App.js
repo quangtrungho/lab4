@@ -1,8 +1,8 @@
 import { StatusBar } from "expo-status-bar";
 import { useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
-import DetailsMV from "./modelview/DetailsMV";
-import HomeMV from "./modelview/HomeMV";
+import DetailsMV from "./viewmodel/DetailsMV";
+import HomeMV from "./viewmodel/HomeMV";
 import Details from "./view/Details";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
